@@ -2,7 +2,7 @@ fastapi==0.115.0
 uvicorn[standard]==0.34.0
 sqlalchemy==2.0.31
 pydantic==2.8.0
-prophet
+# prophet
 pandas
 numpy
 python-dateutil==2.9.0

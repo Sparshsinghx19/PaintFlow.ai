@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.database import engine, Base
 from app.config import APP_SIMULATION_DATE
-
+from app.ml.load_models import models
 
 
 @asynccontextmanager
