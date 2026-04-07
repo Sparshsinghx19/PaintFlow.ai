@@ -63,3 +63,7 @@ def get_meta():
         "model_version": "prophet-1.1.5",
         "demo_mode": False,
     }
+
+@app.get("/")
+def root():
+    return {"message": "PaintFlow API is running 🚀"}
