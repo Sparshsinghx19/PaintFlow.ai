@@ -11,7 +11,7 @@ load_dotenv(BASE_DIR / ".env")
 # -------------------------------------
 
 DB_PATH = BASE_DIR / "paintflow.db"
-MODEL_DIR = BASE_DIR / "app" / "ml" / "models"
+MODEL_DIR = BASE_DIR / "models"
 SCENARIO_DIR = BASE_DIR / "app" / "simulations" / "data"
 
 DATABASE_URL = f"sqlite:///{DB_PATH}"
